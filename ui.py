@@ -16,7 +16,7 @@ class calc:
 			self.e.insert(END,argi)
 
 	def __init__(self,master):
-			master.title('Calulator')
+			master.title('Calculator')
 			master.geometry()
 			self.e = Entry(master)
 			self.e.grid(row=0,column=0,columnspan=4,pady=4,ipadx= 15, ipady= 6)
